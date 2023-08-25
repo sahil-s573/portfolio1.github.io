@@ -404,8 +404,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    background: /* linear-gradient(rgba(236, 236, 239, 0.1), rgba(15, 9, 100, 0.4)),  */
+        url('./images/header-Abstract_particle_explosion_background.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
