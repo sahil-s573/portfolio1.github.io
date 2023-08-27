@@ -617,3 +617,10 @@ body:not(.user-is-tabbing) a:focus {
 img {
     max-height: fit-content;
 }
+
+@media(min-width: 901px) {
+    img {
+        max-width: 70%;
+    }
+}
+
