@@ -615,7 +615,7 @@ body:not(.user-is-tabbing) a:focus {
 
 
 img {
-    max-width: 50%;
+   width: 50%;
 }
 
 @media(min-width: 901px) {
