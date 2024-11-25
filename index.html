@@ -1,17 +1,5 @@
 <!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
+  This is the main code for my Website Portfolio
 -->
 
 <!DOCTYPE html>
@@ -24,7 +12,7 @@
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Khushi Murthy | Computer Engineering @ The University of Illinois Urbana Champaign
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
@@ -41,8 +29,7 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#my-projects" class="nav__link">My Projects</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -56,10 +43,10 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Khushi Murthy</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p> A Computer Engineering student at the University of Illinois Urbana-Champaign, actively seeking summer internships in embedded software and hardware engineering. </p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -67,94 +54,89 @@
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
+    <!-- ***** My Projects ***** -->
 
-    <section class="work" id="work">
+    <section class="Projects" id="my-projects">
       <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
+        <h2>My Projects</h2>
+        <div class="projects__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Falcon 9 Launch Prediction Model</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                A predictive ML project on the Space X launch business.
               </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+              <ul class="project__list">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Machine Learning</li>
               </ul>
 
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+              <div class="project__links">
+                <a href="https://drive.google.com/file/d/1WEt8sION2ycLM_c7hqdBqoDalj89Omrl/view?usp=sharing" target="_blank" class="link__text">
+                  Check out my Report! <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                <br>
+                <a href="https://github.com/murthykhushi/Spacex-analysis" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
                 </a>
               </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <br>
+              
             </div>
           </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
+          <hr>
+          <div class="project__box">
+            <div class="project__text">
+              <h3>PWM Sine Wave Clipper</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                PWM circuit used to run a car.
               </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+              <ul class="project__list">
+                <li>Circuit Design </li>
+                <li>Oscilloscopes</li>
+                <li>Debugging/Testing</li>
               </ul>
 
-              <div class="work__links">
+              <div class="project__links">
                 <a href="#" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
                 <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            <div class="project__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 2" />
             </div>
           </div>
 
-          <div class="work__box">
-            <div class="work__text">
+          <div class="project__box">
+            <div class="project__text">
               <h3>Notificator</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
                 eius.
               </p>
-              <ul class="work__list">
+              <ul class="project__list">
                 <li>React</li>
                 <li>Next.js</li>
                 <li>Node</li>
                 <li>MongoDB</li>
               </ul>
 
-              <div class="work__links">
+              <div class="project__links">
                 <a href="#" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
                 <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
-            <div class="work__image-box">
+            <div class="project__image-box">
               <img src="./images/project-3.png" class="work__image" alt="Project 3" />
             </div>
           </div>
@@ -162,66 +144,56 @@
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
 
     <section class="about" id="about">
       <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
+          <h2>About Me</h2>
+          <div class="about__content">
+              <div class="about__text">
+                  <!-- Replace the below paragraph with info about yourself -->
+                  <p>
+                    Hi, I'm Khushi Murthy! I'm currently studying Computer Engineering 
+                    at the University of Illinois Urbana-Champaign, with a minor in Business.
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+                    I've been involved with multiple hardware/software projects including a
+                    dual axis motorized solar panel, predictive ML on space X launches, and 
+                    a PWM sine wave clipper. 
+
+                    On campus, I'm an Infrastructure Chair for The Women In Electrical and 
+                    Computer Engineering club where I lead workshops aimed on teaching club 
+                    members vital technical skills. 
+                  </p>
+                  <a href="https://drive.google.com/file/d/1fu8brF8NDRPM7KbwII8Y8BYZY8n6yaMD/view?usp=sharing" class="btn" target="_blank">My Resume</a>
+              </div>
+  
+              <div class="about__photo-container">
+                <img
+                  class="about__photo"
+                  src="https://drive.google.com/file/d/1MUXG7bHeO2IH95dgYzvW4JPgwmKZzSuI/view"
+                  alt=""
+                />
+            </div>
           </div>
-        </div>
       </div>
-    </section>
-  </main>
+  </section>
+  
 
   <!-- ***** Contact ***** -->
 
   <section class="contact" id="contact">
     <div class="row">
-      <h2>Get in Touch</h2>
+      <h2>Contact Me!</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          I would love to hear from you! If you have any open positions 
+          available or would like to hear more about my experiences, please 
+          reach out via email. 
+          
+          I'm eager to explore new opportunities and would 
+          appreciate the chance to connect and discuss how my skills and 
+          experiences align with your needs. 
         </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="khushim3@illinois.edu" class="btn">khushim3@illinois.edu</a>
       </div>
     </div>
   </section>
@@ -230,40 +202,19 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/murthykhushi" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+          <a href="https://www.linkedin.com/in/khushi-murthy-2284332a5/">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
       </ul>
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
     </div>
   </footer>
 
